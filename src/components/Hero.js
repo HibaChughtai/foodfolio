@@ -1,33 +1,14 @@
+// Hero.js
 import React from "react";
 
-const Hero = () => {
+function Hero() {
   return (
-    <section
-      className="relative bg-cover bg-center h-[90vh] flex items-center justify-center text-white"
-      style={{ backgroundImage: "url('/pizza-bg.jpg')" }}
-    >
-      <div className="bg-black bg-opacity-50 p-8 rounded-xl text-center max-w-xl">
-        <h2 className="text-lg text-orange-300 font-semibold tracking-widest uppercase">
-          Love At First Bite
-        </h2>
-        <h1 className="text-4xl md:text-5xl font-extrabold my-4 leading-tight">
-          Your Belly Knows Best
-        </h1>
-        <p className="text-xl mb-6 font-medium">
-          Welcome to Sizzle & Slice – A Multinational Food Chain
-        </p>
-
-        <div className="flex justify-center gap-4">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-semibold">
-            Order
-          </button>
-          <button className="border border-white hover:bg-white hover:text-black px-6 py-3 rounded-full font-semibold">
-            Explore Menu
-          </button>
-        </div>
-      </div>
+    <section className="text-center py-20 bg-cover bg-center" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_960_720.jpg')" }}>
+      <h2 className="text-white text-5xl font-bold mb-4">A Taste of Pakistan</h2>
+      <p className="text-white text-xl mb-6">Delicious food meets digital creativity</p>
+      <a href="#projects" className="bg-yellow-500 text-black px-6 py-2 rounded font-semibold">Check Out My Work</a>
     </section>
   );
-};
+}
 
 export default Hero;
